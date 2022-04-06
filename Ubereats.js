@@ -13,7 +13,7 @@ const inputField=`
 <button id="openbtn" onclick="openNav()" style="position:relative; bottom:0px;">&#9776;</button>
     <h1 id="word">Uber</h1>
     <h1 id="Word2">Eats</h1><div>
-<input type="text" placeholder="&#127968;&nbsp;&nbsp;&nbsp;Enter delivery address" style="font-size:110%; position:relative; bottom:20px; left:120px; width:600px; margin-bottom:0px; padding-left:10px;" id="DelText">
+<input type="text" placeholder="&#127968;&nbsp;&nbsp;&nbsp;Enter delivery address" style="font-size:110%; position:relative; bottom:20px; left:80px; width:600px; margin-bottom:0px; padding-left:10px;" id="DelText">
 </div>
 <button id="logbtn">Log in</button>
     <button id="signbtn">Sign Up</button>`;
