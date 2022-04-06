@@ -1,0 +1,528 @@
+@font-face { font-family: UberMove; src: url('UberMoveMedium.otf'); } 
+html, body {
+    margin: 0; 
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    }
+body {
+    overflow: visible;
+}
+    #root {
+        background-image: url("/Users/abhayakulkarni/Desktop/ReactStuff/BackforUber_cleanup.png");
+    background-size: cover;
+    width: 100%;
+    overflow: visible;
+    }
+#container1 {
+    /* box-sizing: border-box; */
+    width: 100%;
+    background-image: url("/Users/abhayakulkarni/Desktop/ReactStuff/BackforUber_cleanup.png");
+    
+    /* margin-left: auto;
+ margin-right: auto;
+ padding-left: 15px;
+ padding-right: 15px; */
+ margin:0px;
+ position:absolute;
+ top:0px;
+ right:0px;
+    /* background-color: #EF9068; */
+    height: 600px;
+}
+#Menu {
+    cursor: pointer;
+    height:20px;
+}
+#gap21 {
+    /* background-color: #EF9068; */
+    height: 200px;
+}
+#sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed; 
+    z-index: 2; 
+    top: 0;
+    left: 0;
+    font-family: UberMove,sans-serif;
+    font-size: small;
+    color: black;
+    background-color:white; 
+    overflow-x: hidden; 
+    padding-top: 2px; 
+    transition: 0.5s;  
+}
+  #sidebar a {
+      font-family: UberMove,sans-serif;
+      font-weight: lighter;
+  }
+  #gap1 {
+      height:400px;
+  }
+  #gap4 {
+      background-color: aliceblue;
+      height: 100px;
+  }
+  #openbtn {
+      font-size: 200%;
+      border: none;
+      background-color: rgb(0,0,0,0);
+      margin:0 30px 30px 30px;
+      /* padding-bottom: 10px; */
+  }
+  #openbtn:hover {
+      cursor: pointer;
+  }
+  .closebtn {
+      font-size: 200%;
+  }
+  #logbtn:hover {
+      cursor: pointer;
+  }
+  #signbtn:hover {
+    cursor: pointer;
+}
+#signIn {
+      width:200px;
+      height:50px;
+      margin:25px;
+      font-size: 150%;
+      font-family: UberMove,sans-serif;
+      background-color: #111;
+      color: aliceblue;
+  }
+  #SignInReq {
+      position: absolute;
+      top:100px;
+      left:40px;
+  }
+#sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+#sidebar a:hover {
+    color: black;
+  }
+#FindFood:hover {
+      cursor:pointer;
+  }
+#mainPage {
+    transition: margin-left .5s;
+    /* padding: 16px; */
+  }
+#logo {
+      display: flex;
+      margin: 10px;
+  }
+#IOSA {
+      display: flex;
+      
+  }
+  #IOSA button {
+      font-size: 120%;
+      border: none;
+      border-radius: 20px;
+    margin:10px;
+    width:100px;
+    height:50px;
+    color: black;
+    background-color:white;
+  }
+#images {
+    display: flex;
+}
+#header {
+    /* box-sizing: border-box; */
+    border-right: 0px;
+    border-bottom: none;
+    position:absolute;
+    top:0px;
+    right: 0px;
+    width: 100%;
+    position: fixed;
+    font-family: UberMove,sans-serif;
+    display: flex;
+    margin:5px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding:5px;
+    padding-top: 20px;
+    padding-bottom:5px ;
+    padding-right: 0px;
+    opacity: 1;
+    overflow-x: auto;
+    z-index: 0;
+    justify-content: flex-end;
+}
+#hamMenu {
+    position: relative;
+    top:30px;
+    margin: 10px;
+}
+#logbtn {
+    font-size: 125%;
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+#signbtn {
+    font-size:125%;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 50px;
+    margin-right: 40px;
+}
+#Word2 {
+    margin:0 5px 5px 0;
+    color: #62C368;
+}
+#Word3 {
+    position: relative;
+    right:50px;
+    /* top:3px; */
+    color: #62C368;
+
+}
+#word {
+    margin:0 5px 5px 0;
+}
+
+#container2 {
+    position: relative;
+    top:50px;
+    display: flex;
+    justify-content: space-around; 
+}
+#title {
+    font-size: 300%;
+    margin:20px;
+    font-family: UberMove,sans-serif;
+}
+#DelText {
+    box-sizing: border-box;
+    width:550px;
+    height:50px;
+    margin:20px;
+    margin-right: 10px;
+}
+#inputField {
+    display: flex;
+    /* float: left;
+    position:relative; */
+}
+#inputField i {
+    position:absolute;
+    /* top:5px;
+    right: 5px; */
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+p {
+    font-family: UberMove,sans-serif;
+    margin-left: 20px;
+}
+p a:visited {
+    color: black;
+}
+#inputField input {
+    font-size: 125%;
+    padding-left: 30px;
+}
+#FindFood {
+    font-size: 125%;
+    width: 150px;
+    height:50px;
+    margin-top: 20px;
+    margin-left:10px;
+    background-color: black;
+    color: aliceblue;
+}
+#heading1 {
+    /* position: relative;
+    top:220px;
+    right:300px; */
+    float:left;
+}
+#gap2 {
+    background-color: white;
+    height: 200px;
+}
+#gap1 {
+    /* background-image: url("/Users/abhayakulkarni/Desktop/ReactStuff/BackforUber_cleanup.png"); */
+    background-size: cover;
+    /* background-color: #EF9068; */
+    /* position: relative;
+    top:200px; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+#Image1,#Image2,#Image3 {
+    box-sizing: border-box;
+    margin:20px;
+    width:400px;
+    height: 400px;
+}
+#SignInReq {
+    font-family: UberMove,sans-serif;
+    position: absolute;
+    right: 800px;
+    top:80px;
+    color: black;
+}
+#heading1 h5 a:visited {
+    color: black;
+}
+#container2 {
+    display:flex;
+    justify-content: space-around;
+}
+#container2 a:visited {
+    color:black;
+}
+#container2 h2,h3 {
+    font-family: UberMove,sans-serif;
+}
+#conatiner2 h2 {
+    font-size: 250%;
+    font-weight: bold;
+}
+#container2 h3 {
+    font-weight: bolder;
+    margin-left: 27px;
+}
+#container3 h1,h2{
+    font-family: UberMove,sans-serif;
+    margin:30px;
+
+}
+#fadeMe {
+    margin-left: 250px;
+    opacity:    0.5; 
+    background: #000; 
+    width:      100%;
+    height:     100%; 
+    z-index:    10;
+    top:        0; 
+    left:       0; 
+    position:   fixed; 
+  }
+li a:hover {
+    cursor: pointer;
+}
+#list li a:hover {
+    cursor: pointer;
+}
+#container3 {
+    display: flex;
+}
+#container3 h3 {
+    margin-left: auto;
+}
+#container3 h3 a {
+    color: black;
+    text-decoration: underline;
+}
+#conatiner3 h2 a:visited {
+    color: black;
+    text-decoration: underline;
+}
+#citylist {
+    display: flex;
+    justify-content: space-around;
+    font-weight: lighter;
+    font-family: UberMove,sans-serif;
+    font-size: medium;
+}
+#citylist ul {
+    list-style: none;
+}
+#citylist ul li {
+    padding: 15px;
+}
+#citylist ul li a {
+    text-decoration: none;
+}
+#citylist ul li a:visited{
+    color:black;
+}
+#container4 h1 {
+    margin:30px;
+    font-family: UberMove,sans-serif;
+}
+#countrylist {
+    display: flex;
+    justify-content: space-around;
+    font-weight: lighter;
+    font-family: UberMove,sans-serif;
+    font-size: medium;
+}
+#countrylist ul {
+    list-style: none;
+}
+#countrylist ul li {
+    padding: 15px;
+}
+#countrylist ul li a {
+    text-decoration: none;
+}
+#countrylist ul li a:visited {
+    color:black;
+}
+#container3 h3 {
+    font-size: 90%;
+    position: relative;
+    top: 40px;
+}
+#footer {
+    width:100%;
+    background-color: black;
+    color: aliceblue;
+}
+#footerTop {
+    display: flex;
+}
+#list2 {
+    display: flex;
+    font-family: UberMove,sans-serif;
+    margin:5px;
+    padding:5px;
+}
+#lists {
+    font-family: UberMove,sans-serif;
+    /* margin:5px; */
+    /* padding:5px; */
+}
+#lists {
+    display: flex;
+    position: relative;
+    left:240px;
+    padding: 20px;
+}
+
+#lists ul li a{
+    padding: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+#lists ul li a:hover{
+    text-decoration: underline;
+}
+#lists ul li a:visited{
+    text-decoration: underline;
+}
+#lists ul {
+    list-style: none;
+    margin:20px;
+}
+#lists ul li {
+    margin:10px;
+    padding: 10px;
+}
+#line1 i{
+    padding: 10px;
+    margin:5px;
+}
+#line1 a:visited {
+    color: aliceblue;
+}
+#footerBtm {
+    display: flex;
+    /* width: 800px; */
+}
+#line12 {
+    display: flex;
+    align-items: flex-end;
+}
+#line12 p {
+    position: relative;
+    bottom:3px;
+    left:250px;
+    margin-left: auto;
+    margin:10px;
+}
+#line12 a {
+    text-decoration: none;
+    color: aliceblue;
+}
+#line12 a:hover {
+    text-decoration: underline;
+}
+#line12 a:visited {
+    color: aliceblue;
+}
+#line2 {
+    display: flex;
+    margin-left: auto;
+}
+#line2 i {
+    margin:10px;
+}
+#UpnDown {
+    display:flex;
+    height:350px;
+    flex-direction: column;
+}
+#UpnDown i {
+    font-size: 200%;
+    margin:5px;
+    padding:5px;
+    padding-left: 60px;
+    margin-top: auto;
+    justify-content: flex-end;
+}
+#icons {
+    display: flex;
+    font-size: 150%;
+    position: relative;
+    right:40px;
+    margin:5px;
+    padding:5px;
+    /* padding-left: 10px; */
+    margin-top: auto;
+    justify-content: flex-end;
+}
+#line12 {
+    position: relative;
+    left:550px;
+}
+#line2 {
+    position: relative;
+    left:500px;
+}
+#android {
+    position: relative;
+    top:30px;
+}
+#icons a:visited {
+    color: aliceblue;
+}
+#iOS {
+    position: relative;
+    top:45px;
+}
+#Uber {
+    padding-left: 50px;
+}
+#map {
+    position: relative;
+    left:20px;
+    width: 98%;
+    margin-right: 20px;
+}

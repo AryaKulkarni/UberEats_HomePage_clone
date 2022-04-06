@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="UberEats.css">
+    <script src="https://kit.fontawesome.com/3b0768a503.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="fadeMe"></div>
+    <div id="sidebar">
+        <button id="signIn">Sign In</button>
+        <a href="#" style="font-size: 120%;">Create a business account</a>
+        <a href="#" style="font-size: 120%;">Add your restaurant</a>
+        <a href="#" style="font-size: 120%;">Sign up to deliver</a>
+        <div id="gap2"></div>
+        <div id="logo">
+            <img src="/Users/abhayakulkarni/Desktop/ReactStuff/uber-eats2124.jpeg" width="150px" height="80px" style="position: relative; bottom:0px;">
+            <p style="font-size:120%">There's more to love in the app</p>
+        </div>
+        <div style="height:100px;"></div>
+        <div id="IOSA">
+            <button id="Iphone" style="background-color: aliceblue;"><i class="fa-brands fa-apple">iPhone</i></button>
+            <button id="Android" style="background-color: aliceblue;"><i class="fa-brands fa-android">Android</i></button>
+        </div>
+        <!-- <button id="Menu" onclick="add()"><i class="fa-solid fa-bars fa-lg" id="hamMenu"></i></button> -->
+    </div>
+    <div id="root">
+    <div id="header">
+    <!-- <button id="Menu"><i class="fa-solid fa-bars fa-lg" id="hamMenu"></i></button> -->
+    <button id="openbtn" onclick="func()">&#9776;</button>
+    <h1 id="word">Uber</h1>
+    <h1 id="Word2">Eats</h1>
+    <button id="logbtn">Log in</button>
+    <button id="signbtn">Sign Up</button>
+    <br>
+    </div>
+    <div id="gap21"></div>
+    <div id="gap1">
+    <div>
+    <h1 id="title">Order food to your door</h1>
+    </div>
+    <br>
+    <div id="inputField">
+    <!-- <i class="fa-solid fa-location-dot fa-lg"></i> -->
+    <input type="text" placeholder="&#127968;&nbsp;&nbsp;&nbsp;Enter delivery address" style="border: none;" id="DelText">	
+    <button id="FindFood" style="border: none;">Find Food</button>
+    </div>
+    <p><a href="#">Sign In</a> for your recent addresses</p>
+    <!-- <div  id="SignInReq">
+    <h5><a href="#" id="SignIn">Sign In</a> for your recent addresses</h5>
+    </div> -->
+    </div>
+    </div>
+    <div id="container2">
+        <div id="Image1">
+            <img src="/Users/abhayakulkarni/Desktop/ReactStuff/d68c5f5ddd33d16a8d6855987410673b.svg">
+            <h2>Feed your employees</h2>
+            <h3><a href="#">Create a business account</a></h3>
+        </div>
+        <div id="Image2">
+            <img src="/Users/abhayakulkarni/Desktop/ReactStuff/f37288f1ff264310c703ea536190f79c.svg">
+            <h2>Your restaurant, delivered</h2>
+            <h3><a href="#">Add your restaurant</a></h3>
+        </div>
+        <div id="Image3">
+            <img src="/Users/abhayakulkarni/Desktop/ReactStuff/43d9d02eb8ef72ff2029a296cfb91180.svg">
+            <h2>Deliver with Uber Eats</h2>
+            <h3><a href="#">Sign up to deliver</a></h3>
+        </div>
+        </div>
+    <div>
+    <div id="container3">
+        <h1>Cities near me</h1>
+        <h3><a href="#">View all 500+ cities</a></h3>
+    </div>
+    <div>
+    <img src="map.png" id="map">
+    </div>
+    </div>
+    <div id="citylist">
+        <ul id="list">
+            <li><a href="#">Atlanta</a></li>
+            <li><a href="#">Austin</a></li>
+            <li><a href="#">Baltimore</a></li>
+            <li><a href="#">Boston</a></li>
+            <li><a href="#">Charlotte</a></li>
+            <li><a href="#">Chicago</a></li>
+        </ul>
+        <ul id="list">
+            <li><a href="#">Dallas Fort-Worth</a></li>
+            <li><a href="#">Denver</a></li>
+            <li><a href="#">Las-Vegas</a></li>
+            <li><a href="#">Los-Angeles</a></li>
+            <li><a href="#">Miami</a></li>
+            <li><a href="#">Minneapolis-St. Paul</a></li>
+        </ul>
+        <ul id="list">
+            <li><a href="#">New York City</a></li>
+            <li><a href="#">Palm Springs</a></li>
+            <li><a href="#">Philadelphia</a></li>
+            <li><a href="#">Phoenix</a></li>
+            <li><a href="#">Pittsburgh</a></li>
+            <li><a href="#">Portland</a></li>
+        </ul>
+        <ul id="list">
+            <li><a href="#">Sacramento</a></li>
+            <li><a href="#">San Diego</a></li>
+            <li><a href="#">San Francisco Bay Area</a></li>
+            <li><a href="#">Seattle</a></li>
+            <li><a href="#">Tampa Bay</a></li>
+            <li><a href="#">Washington DC</a></li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <div id="container4">
+        <h1>Countries with Uber Eats</h1>
+        <div id="countrylist">
+            <ul id="list1">
+                <li><a href="#">United States</a></li>
+                <li><a href="#">Spain</a></li>
+                <li><a href="#">Brazil</a></li>
+                <li><a href="#">Mexico</a></li>
+                <li><a href="#">France</a></li>
+                <li><a href="#">Japan</a></li>
+            </ul>
+            <ul id="list">
+                <li><a href="#">Canada</a></li>
+                <li><a href="#">Australia</a></li>
+                <li><a href="#">Poland</a></li>
+                <li><a href="#">United Kingdom</a></li>
+                <li><a href="#">Italy</a></li>
+                <li><a href="#">Portugal</a></li>
+            </ul>
+            <ul id="list">
+                <li><a href="#">Switzerland</a></li>
+                <li><a href="#">Chile</a></li>
+                <li><a href="#">New Zealand</a></li>
+                <li><a href="#">Taiwan (ROC)</a></li>
+                <li><a href="#">South Africa</a></li>
+                <li><a href="#">Belgium</a></li>
+            </ul>
+            <ul id="list">
+                <li><a href="#">Ecuador</a></li>
+                <li><a href="#">Ireland</a></li>
+                <li><a href="#">Sri Lanka</a></li>
+                <li><a href="#">Sweden</a></li>
+                <li><a href="#">Guatemala</a></li>
+                <li><a href="#">Costa Rica</a></li>
+            </ul>
+        </div>
+        <div id="footer">
+            <div id="footerTop">
+                <div id="UpnDown">
+                <div id="list2">
+                    <h1 id="Uber">Uber</h1>
+                    <h1 id="Word3">Eats</h1>
+                </div>
+                <div id="icons">
+                <a href="https://apps.apple.com/us/app/uber-eats-food-delivery/id1058959277"><i class="fa-brands fa-app-store fa-lg" id="iOS"></i></a>
+                <a href="https://play.google.com/store/apps/details?id=com.ubercab.eats"><i class="fa-brands fa-android" id="android"></i></a>
+                </div>
+                </div>
+
+                <div id="lists">
+                    <ul>
+                        <li><a href="#">Get Help</a></li>
+                        <li><a href="#">Buy Gift Cards</a></li>
+                        <li><a href="#">Add your restaurant</a></li>
+                        <li><a href="#">Sign up to Deliver</a></li>
+                        <li><a href="#">Create a business account</a></li>
+                        <li><a href="#">Save on your first order</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">Restaurants near you</a></li>
+                        <li><a href="#">View all cities</a></li>
+                        <li><a href="#">View all countries</a></li>
+                        <li><a href="#">Pickup near me</a></li>
+                        <li><a href="#">About Uber Eats</a></li>
+                        <li><a href="#">English</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr size="1" color="#FFFFFF" width="90%" style="margin-bottom: 30px;">
+            <div id="footerBtm">
+               <div id="line1" style="position: relative; left:45px;">
+                <a href="https://www.facebook.com/UberEats/"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                <a href="https://twitter.com/ubereats"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+               </div>
+               <div id="line12" style="position: relative; right:40px;">
+                   <a href="#"><p style="font-size: 90%;">Privacy Policy</p></a>
+                   <a href="#"><p style="font-size: 90%;">Terms</p></a>
+                   <a href="#"><p style="font-size: 90%;">Pricing</p></a>
+                   <a href="#"><p style="font-size: 90%;">Do not sell my info(Califronia)</p></a>
+               </div> 
+            </div>
+               <div id="line2" style="padding-bottom: 40px; position: relative; right:50px;">
+                   <p style="font-size: 90%;">
+                    This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+                   <p style="font-size: 90%;">© 2022 Uber Technologies Inc.</p>    
+               </div>
+        </div>
+    </div>
+    </div>
+<script src="Ubereats.js"></script>    
+</body>
+</html>
