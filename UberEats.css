@@ -137,6 +137,7 @@ body {
     display: flex;
 }
 #header {
+    font-weight:80%;
     /* box-sizing: border-box; */
     border-right: 0px;
     border-bottom: none;
