@@ -362,6 +362,7 @@ li a:hover {
 }
 #citylist ul li a {
     text-decoration: none;
+    color:black;
 }
 #citylist ul li a:visited{
     color:black;
@@ -385,6 +386,7 @@ li a:hover {
 }
 #countrylist ul li a {
     text-decoration: none;
+    color:black;
 }
 #countrylist ul li a:visited {
     color:black;
@@ -513,6 +515,9 @@ li a:hover {
 #android {
     position: relative;
     top:30px;
+}
+#icons a {
+    color: aliceblue;
 }
 #icons a:visited {
     color: aliceblue;
