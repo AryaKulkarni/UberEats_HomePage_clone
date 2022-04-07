@@ -8,6 +8,9 @@ html, body {
 body {
     overflow: visible;
 }
+a:visited {
+    color:black;
+}
     #root {
         background-image: url("BackforUber_cleanup.png");
     background-size: cover;
